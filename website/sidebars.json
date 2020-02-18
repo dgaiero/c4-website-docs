@@ -1,0 +1,26 @@
+{
+   "docs": {
+      "Getting Started": [
+         "getting-started",
+         {
+            "type": "subcategory",
+            "label": "Import/Export",
+            "ids": [
+               "importing-data",
+               "exporting-data"
+            ]
+         },
+         {
+            "type": "subcategory",
+            "label": "Adding Data",
+            "ids": [
+               "add-collaborations",
+               "add-keywords",
+               "add-orgs",
+               "add-user",
+               "edit-front-end-params"
+            ]
+         }
+      ]
+   }
+}
