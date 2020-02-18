@@ -2,10 +2,6 @@
 id: importing-data
 title: How to Import Data
 sidebar_label: Importing Data
-------
-id: importing-data
-title: How to Import Data
-sidebar_label: Importing Data
 ---
 
 ## General Overview
