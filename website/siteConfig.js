@@ -15,8 +15,9 @@ const users = [
 const siteConfig = {
    title: 'C4 Docs', // Title for your website.
    tagline: 'Documentation for Central Coast Climate Collaborative',
-   url: 'https://about.dgaiero.me', // Your website URL
-   baseUrl: '/c4-website-docs/', // Base URL for your project */
+   url: 'https://docs.centralcoastclimate.org', // Your website URL
+   cname: 'docs.centralcoastclimate.org',
+   baseUrl: '/', // Base URL for your project */
    // For github.io type URLs, you would set the url and baseUrl like:
    //   url: 'https://facebook.github.io',
    //   baseUrl: '/test-site/',
