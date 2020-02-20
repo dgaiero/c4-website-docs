@@ -4,6 +4,19 @@ title: Getting started with the 4C API
 sidebar_label: Getting Started
 ---
 
+## Using this website
+
+This website provides all documentation required to administer the backend API
+for the central coast climate collaborative universities website.
+
+You can navigate between different pages on this website using the links at the
+left (in desktop mode) or the burger menu (in smartphone mode).
+
+While using this website, if you find documentation that should be updated, you
+may use the `Edit` button found in the top right of every page to edit the
+contents of that page. Please submit a pull request on GitHub and, if you change
+if accepted, it will be merged and the website will be updated.
+
 ## Logging In
 
 To access the backend website, you must login through
