@@ -8,16 +8,13 @@
 const React = require('react');
 
 class NotFound extends React.Component {
-  render() {
-     const { config: siteConfig, language = '' } = this.props;
-     const { baseUrl } = siteConfig;
-     const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-    return (
-      <>
-          <code>Resource Not Found</code>
-      </>
-    );
-  }
+   render() {
+      return (
+         <div>
+            <code>Resource Not Found</code>
+         </div>
+      );
+   }
 }
 
 module.exports = NotFound;
