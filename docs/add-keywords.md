@@ -8,6 +8,9 @@ sidebar_label: Add Keywords
 
 Keywords can be accessed directly here: [https://api.centralcoastclimate.org/dashboard/c4Backend/keywords/](https://api.centralcoastclimate.org/dashboard/c4Backend/keywords/)
 
+> **NOTE** When adding keywords, you **must not** include commas in any of the
+> fields. This will cause issues when importing/exporting in bulk.
+
 ### Keyword Type
 
 Keyword Type signifies if the keyword is a topical or activity keyword.
@@ -55,7 +58,7 @@ When importing keywords, the system requests the following information:
 
 |ID|Keyword Name|Keyword Type|Sort Order|Keyword Description|
 |---|---|---|---|---|
-|Do not include when importing|Must include|Must include|Must include|Optional|
+|Do not include|Required|Required|Required|Optional|
 
 When importing data, omit the `ID` row.
 
@@ -63,3 +66,5 @@ When uploading keywords in bulk, you must use the short name as the field value
 for `Keyword Type` and `Sort Order`.
 For reference, use the values as described in [Keyword Type](#keyword-type) and
 [Sort Order](#sort-order).
+
+A template excel file for data entry can be found [here](assets/templates/KeywordBlankTemplate.xlsx)
