@@ -17,6 +17,8 @@ the `C4BACKEND` entries:
 * Organizations
 * Users
 
+You must add collaborations, keywords, and organizations **before** adding a user.
+
 > You'll note that `Front End Parameters` are excluded from this list. These
 > parameters cannot be imported or exported.
 
